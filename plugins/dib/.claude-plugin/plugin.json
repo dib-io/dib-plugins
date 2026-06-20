@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "dib",
   "displayName": "Dib",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Connect Claude to your Dib home: inventory, vehicles, documents, tasks, rooms, and your home profile, via the Dib MCP server.",
   "author": {
     "name": "Dib",

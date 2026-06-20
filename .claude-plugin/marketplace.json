@@ -8,7 +8,7 @@
   },
   "metadata": {
     "description": "Official Dib plugins for Claude Code. Connect your AI to your home.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
