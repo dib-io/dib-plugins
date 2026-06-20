@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "dib": {
+      "type": "http",
+      "url": "https://dib.io/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.dib_api_key}"
+      }
+    }
+  }
+}

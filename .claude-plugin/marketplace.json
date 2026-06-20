@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "dib",
+  "owner": {
+    "name": "Dib",
+    "email": "developers@dib.io",
+    "url": "https://dib.io"
+  },
+  "metadata": {
+    "description": "Official Dib plugins for Claude Code. Connect your AI to your home.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dib",
+      "source": "./plugins/dib",
+      "description": "Give Claude access to your Dib home: inventory, vehicles, documents, tasks, rooms, and your home profile, through the Dib MCP server.",
+      "category": "external-integrations",
+      "keywords": [
+        "mcp",
+        "home-management",
+        "inventory",
+        "vehicles",
+        "documents",
+        "tasks",
+        "dib"
+      ]
+    }
+  ]
+}

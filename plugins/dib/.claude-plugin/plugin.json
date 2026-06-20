@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "dib",
+  "displayName": "Dib",
+  "version": "1.0.0",
+  "description": "Connect Claude to your Dib home: inventory, vehicles, documents, tasks, rooms, and your home profile, via the Dib MCP server.",
+  "author": {
+    "name": "Dib",
+    "email": "developers@dib.io",
+    "url": "https://dib.io"
+  },
+  "homepage": "https://dib.io/developers/mcp",
+  "repository": "https://github.com/dib-ai-inc/dib-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "home-management",
+    "inventory",
+    "vehicles",
+    "documents",
+    "tasks",
+    "dib"
+  ],
+  "userConfig": {
+    "dib_api_key": {
+      "type": "string",
+      "title": "Dib API key",
+      "description": "Your dib_live_* key from dib.io/developers (use a dib_test_* key to hit the sandbox). Stored in your system keychain, never in plaintext settings.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
