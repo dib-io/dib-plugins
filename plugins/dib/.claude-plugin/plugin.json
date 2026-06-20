@@ -10,7 +10,7 @@
     "url": "https://dib.io"
   },
   "homepage": "https://dib.io/developers/mcp",
-  "repository": "https://github.com/dib-ai-inc/dib-plugins",
+  "repository": "https://github.com/dib-io/dib-plugins",
   "license": "MIT",
   "keywords": [
     "mcp",

@@ -7,7 +7,7 @@ Official [Claude Code](https://code.claude.com) plugins for [Dib](https://dib.io
 From inside Claude Code:
 
 ```shell
-/plugin marketplace add dib-ai-inc/dib-plugins
+/plugin marketplace add dib-io/dib-plugins
 /plugin install dib@dib
 ```
 
