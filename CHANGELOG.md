@@ -15,6 +15,8 @@ All notable changes to the Dib plugins are documented here. This project adheres
 - **`home-manager` subagent** — a home-management concierge scoped to the Dib tools.
 - **CI validation** (`scripts/validate-plugins.mjs` + GitHub Actions workflow) that checks
   the marketplace/plugin manifests and command, agent, and skill frontmatter on every PR.
+- **`AGENTS.md`** with contributor standards for the open-source repo (layout, conventions,
+  versioning, and validation).
 
 ## [1.0.0]
 
