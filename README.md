@@ -22,6 +22,19 @@ Then confirm everything's wired up:
 /dib:setup
 ```
 
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/dib:setup` | Verify the MCP connection and show what Claude can now do |
+| `/dib:home-summary` | A read-only snapshot of your home: profile, inventory highlights, open tasks |
+| `/dib:maintenance-plan` | Build a seasonal maintenance plan from your home profile and create the tasks |
+| `/dib:inventory-audit` | Find inventory gaps (missing rooms, receipts, serials, values) and offer fixes |
+
+The plugin also ships a **`home-management` skill** that teaches Claude how to use the Dib
+tools well (read-before-write, scopes, data conventions, multi-tool workflows) and a
+**`home-manager` subagent** you can delegate longer home-organizing jobs to.
+
 ## What you can ask
 
 Once connected, just talk to Claude about your home:
@@ -65,6 +78,16 @@ The plugin bundles the Dib MCP server (`https://dib.io/api/mcp`). The tools Clau
 - MCP reference: https://dib.io/developers/mcp
 - Auth: https://dib.io/developers/auth
 - Support: developers@dib.io
+
+## Contributing
+
+Changes are tracked in [CHANGELOG.md](./CHANGELOG.md). A GitHub Actions workflow validates
+the marketplace and plugin manifests on every push and pull request; you can run the same
+check locally:
+
+```shell
+bun run scripts/validate-plugins.mjs
+```
 
 ## License
 
